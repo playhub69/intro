@@ -214,7 +214,7 @@ jps
 =================================================================================
 Copy file from local system to hdfs
 =================================================================================
-hdfs dfs -put /home/udit/download/employee_details.txt    -- source will be path of any text file on ubuntu vm that u will be copying
+hdfs dfs -put /home/udit/download/employee_details.txt    -- source will be path that u will be copying
 
 check using below listing command on terminal
 hdfs dfs -ls
